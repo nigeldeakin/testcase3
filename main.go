@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-type citiesResponse struct {
+type citiesResponse struct {qwertrty
 	Cities []string `json:"cities"` // Cities capitalised to export it, otherwise json encoder will ignore it.
 }
 
