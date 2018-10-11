@@ -1,11 +1,11 @@
-package main
+Package main
 
 import (
 	"encoding/json"
 	"log"
 	"net/http"
 )
-
+THIS WILL BREAK THE COMPILATION
 type citiesResponse struct {
 	Cities []string `json:"cities"` // Cities capitalised to export it, otherwise json encoder will ignore it.
 }
