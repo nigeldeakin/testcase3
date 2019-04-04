@@ -13,6 +13,12 @@ dev:
 
 # Build definition
 build:
+  docker: true
+  services:
+    - id: mysql:5.7
+      env:
+        MYSQL_ALLOW_EMPTY_PASSWORD: yes
+        MYSQL_DATABASE: api_keys
   # The steps that will be executed on build
   steps:
 
