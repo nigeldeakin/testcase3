@@ -24,7 +24,7 @@ build:
         name: go build
         code: |
           go build ./...
-          exit 1
+          return 1
 
     # Test the project
     - script:
