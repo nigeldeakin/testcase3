@@ -24,7 +24,8 @@ build:
         name: go build
         code: |
           go build ./...
-          return 1
+          chmod a+x foo.sh
+          ./foo.sh
 
     # Test the project
     - script:
